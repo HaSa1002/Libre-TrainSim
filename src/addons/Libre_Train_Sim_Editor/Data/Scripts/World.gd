@@ -69,8 +69,8 @@ func _ready():
 		## Create Persons-Node:
 		var personsNode = Spatial.new()
 		personsNode.name = "Persons"
-		personsNode.owner = self
 		add_child(personsNode)
+		personsNode.owner = self
 		
 		for personVisualInstancesPath in personVisualInstancesPathes:
 			personVisualInstances.append(load(personVisualInstancesPath))
