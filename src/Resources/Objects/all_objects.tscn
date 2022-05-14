@@ -1,0 +1,1155 @@
+[gd_scene load_steps=121 format=2]
+
+[ext_resource path="res://Resources/Objects/Arch.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://Resources/Objects/Bridge1.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://Resources/Objects/Bench.obj" type="ArrayMesh" id=3]
+[ext_resource path="res://Resources/Objects/Ceiling.obj" type="ArrayMesh" id=4]
+[ext_resource path="res://Resources/Objects/bü4.obj" type="ArrayMesh" id=5]
+[ext_resource path="res://Resources/Objects/Control-Roll.obj" type="ArrayMesh" id=6]
+[ext_resource path="res://Resources/Objects/Crop.obj" type="ArrayMesh" id=7]
+[ext_resource path="res://Resources/Objects/DestinationSignFromUp.obj" type="ArrayMesh" id=8]
+[ext_resource path="res://Resources/Objects/DestinationSignFromUp_outside.obj" type="ArrayMesh" id=9]
+[ext_resource path="res://Resources/Objects/easyBushes1.obj" type="ArrayMesh" id=10]
+[ext_resource path="res://Resources/Objects/easyBushes1_big.obj" type="ArrayMesh" id=11]
+[ext_resource path="res://Resources/Objects/DriversStand.obj" type="ArrayMesh" id=12]
+[ext_resource path="res://Resources/Objects/BridgePfost1.obj" type="ArrayMesh" id=13]
+[ext_resource path="res://Resources/Objects/bumper.obj" type="ArrayMesh" id=14]
+[ext_resource path="res://Resources/Objects/Ne3_100m.tscn" type="PackedScene" id=15]
+[ext_resource path="res://Resources/Objects/Bü4.tscn" type="PackedScene" id=16]
+[ext_resource path="res://Resources/Objects/Ne3_100m_small.tscn" type="PackedScene" id=17]
+[ext_resource path="res://Resources/Objects/Ne3_325m.tscn" type="PackedScene" id=18]
+[ext_resource path="res://Resources/Objects/Ne3_400m.tscn" type="PackedScene" id=19]
+[ext_resource path="res://Resources/Objects/Ne3_175m_small.tscn" type="PackedScene" id=20]
+[ext_resource path="res://Resources/Objects/Ne3_400m_small.tscn" type="PackedScene" id=21]
+[ext_resource path="res://Resources/Objects/Ne3_175m.tscn" type="PackedScene" id=22]
+[ext_resource path="res://Resources/Objects/Ne3_250m_small.tscn" type="PackedScene" id=23]
+[ext_resource path="res://Resources/Objects/Ne3_325m_small.tscn" type="PackedScene" id=24]
+[ext_resource path="res://Resources/Objects/Ne3_250m.tscn" type="PackedScene" id=25]
+[ext_resource path="res://Resources/Objects/lf7.obj" type="ArrayMesh" id=26]
+[ext_resource path="res://Resources/Objects/zs3.obj" type="ArrayMesh" id=27]
+[ext_resource path="res://Resources/Objects/editor_arrow.obj" type="ArrayMesh" id=28]
+[ext_resource path="res://Resources/Objects/EasyTree.obj" type="ArrayMesh" id=29]
+[ext_resource path="res://Resources/Objects/empty.obj" type="ArrayMesh" id=30]
+[ext_resource path="res://Resources/Objects/factory1.obj" type="ArrayMesh" id=31]
+[ext_resource path="res://Resources/Objects/FieldWithCrops.obj" type="ArrayMesh" id=32]
+[ext_resource path="res://Resources/Objects/Garbage.obj" type="ArrayMesh" id=33]
+[ext_resource path="res://Resources/Objects/EasyTree_big.obj" type="ArrayMesh" id=34]
+[ext_resource path="res://Resources/Objects/GrassHalms.obj" type="ArrayMesh" id=35]
+[ext_resource path="res://Resources/Objects/hektometertafel.obj" type="ArrayMesh" id=36]
+[ext_resource path="res://Resources/Objects/Pfost_long.obj" type="ArrayMesh" id=37]
+[ext_resource path="res://Resources/Objects/platform_light_1_double.obj" type="ArrayMesh" id=38]
+[ext_resource path="res://Resources/Objects/Pfost1.obj" type="ArrayMesh" id=39]
+[ext_resource path="res://Resources/Objects/Poles_1_30m.obj" type="ArrayMesh" id=40]
+[ext_resource path="res://Resources/Objects/pzb_magnet.obj" type="ArrayMesh" id=41]
+[ext_resource path="res://Resources/Objects/Poles_1_32m.obj" type="ArrayMesh" id=42]
+[ext_resource path="res://Resources/Objects/RailRamp2.obj" type="ArrayMesh" id=43]
+[ext_resource path="res://Resources/Objects/RailRampEnd.obj" type="ArrayMesh" id=44]
+[ext_resource path="res://Resources/Objects/house4.obj" type="ArrayMesh" id=45]
+[ext_resource path="res://Resources/Objects/ICE4.obj" type="ArrayMesh" id=46]
+[ext_resource path="res://Resources/Objects/Lift-Subway.obj" type="ArrayMesh" id=47]
+[ext_resource path="res://Resources/Objects/ne3_small.obj" type="ArrayMesh" id=48]
+[ext_resource path="res://Resources/Objects/office3.obj" type="ArrayMesh" id=49]
+[ext_resource path="res://Resources/Objects/office2.obj" type="ArrayMesh" id=50]
+[ext_resource path="res://Resources/Objects/Poles_1_28m.obj" type="ArrayMesh" id=51]
+[ext_resource path="res://Resources/Objects/reverser.obj" type="ArrayMesh" id=52]
+[ext_resource path="res://Resources/Objects/Poles_1_20m.obj" type="ArrayMesh" id=53]
+[ext_resource path="res://Resources/Objects/Pole1_small.obj" type="ArrayMesh" id=54]
+[ext_resource path="res://Resources/Objects/house1.obj" type="ArrayMesh" id=55]
+[ext_resource path="res://Resources/Objects/house2.obj" type="ArrayMesh" id=56]
+[ext_resource path="res://Resources/Objects/Platform-1_double.obj" type="ArrayMesh" id=57]
+[ext_resource path="res://Resources/Objects/Poles_1_22m.obj" type="ArrayMesh" id=58]
+[ext_resource path="res://Resources/Objects/Platform-1.obj" type="ArrayMesh" id=59]
+[ext_resource path="res://Resources/Objects/house3.obj" type="ArrayMesh" id=60]
+[ext_resource path="res://Resources/Objects/Halt300m.obj" type="ArrayMesh" id=61]
+[ext_resource path="res://Resources/Objects/house7.obj" type="ArrayMesh" id=62]
+[ext_resource path="res://Resources/Objects/platform_light_1.obj" type="ArrayMesh" id=63]
+[ext_resource path="res://Resources/Objects/Platform_undercrossing_end.obj" type="ArrayMesh" id=64]
+[ext_resource path="res://Resources/Objects/house6.obj" type="ArrayMesh" id=65]
+[ext_resource path="res://Resources/Objects/highway_bridge_1_30m.obj" type="ArrayMesh" id=66]
+[ext_resource path="res://Resources/Objects/Platform_undercrossing_with_roof.obj" type="ArrayMesh" id=67]
+[ext_resource path="res://Resources/Objects/Pole1_double.obj" type="ArrayMesh" id=68]
+[ext_resource path="res://Resources/Objects/RailRamp.obj" type="ArrayMesh" id=69]
+[ext_resource path="res://Resources/Objects/Platform_no_railings.obj" type="ArrayMesh" id=70]
+[ext_resource path="res://Resources/Objects/Poles_1_26m.obj" type="ArrayMesh" id=71]
+[ext_resource path="res://Resources/Objects/SoundSavingWall.obj" type="ArrayMesh" id=72]
+[ext_resource path="res://Resources/Objects/SpecialGround.obj" type="ArrayMesh" id=73]
+[ext_resource path="res://Resources/Objects/Speed_Sign.obj" type="ArrayMesh" id=74]
+[ext_resource path="res://Resources/Objects/PoleRamp.obj" type="ArrayMesh" id=75]
+[ext_resource path="res://Resources/Objects/platform_cube.obj" type="ArrayMesh" id=76]
+[ext_resource path="res://Resources/Objects/Platform_double_roofing.obj" type="ArrayMesh" id=77]
+[ext_resource path="res://Resources/Objects/Poles_1_14m.obj" type="ArrayMesh" id=78]
+[ext_resource path="res://Resources/Objects/Platform_undercrossing.obj" type="ArrayMesh" id=79]
+[ext_resource path="res://Resources/Objects/ne3.obj" type="ArrayMesh" id=80]
+[ext_resource path="res://Resources/Objects/Poles_1_29m.obj" type="ArrayMesh" id=81]
+[ext_resource path="res://Resources/Objects/Poles_1_40m.obj" type="ArrayMesh" id=82]
+[ext_resource path="res://Resources/Objects/Office1.obj" type="ArrayMesh" id=83]
+[ext_resource path="res://Resources/Objects/Platform-1_no_railings.obj" type="ArrayMesh" id=84]
+[ext_resource path="res://Resources/Objects/office4.obj" type="ArrayMesh" id=85]
+[ext_resource path="res://Resources/Objects/Rail.obj" type="ArrayMesh" id=86]
+[ext_resource path="res://Resources/Objects/Halt500m.obj" type="ArrayMesh" id=87]
+[ext_resource path="res://Resources/Objects/Poles_1_16m.obj" type="ArrayMesh" id=88]
+[ext_resource path="res://Resources/Objects/RailRampEnd2.obj" type="ArrayMesh" id=89]
+[ext_resource path="res://Resources/Objects/highway_bridge_1_50m.obj" type="ArrayMesh" id=90]
+[ext_resource path="res://Resources/Objects/Pole1.obj" type="ArrayMesh" id=91]
+[ext_resource path="res://Resources/Objects/office5.obj" type="ArrayMesh" id=92]
+[ext_resource path="res://Resources/Objects/Pfost2.obj" type="ArrayMesh" id=93]
+[ext_resource path="res://Resources/Materials/Beton.tres" type="Material" id=94]
+[ext_resource path="res://Resources/Materials/Wood.tres" type="Material" id=95]
+[ext_resource path="res://Resources/Objects/TrainStationBuilding1.obj" type="ArrayMesh" id=96]
+[ext_resource path="res://Resources/Objects/Subway_Bridge_With1Edge.obj" type="ArrayMesh" id=97]
+[ext_resource path="res://Resources/Objects/Subway_Stairs_Long_10m.obj" type="ArrayMesh" id=98]
+[ext_resource path="res://Resources/Objects/Subway_Bridge_Cross.obj" type="ArrayMesh" id=99]
+[ext_resource path="res://Resources/Objects/WallForPainting.obj" type="ArrayMesh" id=100]
+[ext_resource path="res://Resources/Objects/Subway_Bridge_WithEdges.obj" type="ArrayMesh" id=101]
+[ext_resource path="res://Resources/Objects/street_bridge_1_50m.obj" type="ArrayMesh" id=102]
+[ext_resource path="res://Resources/Objects/transmission_tower.obj" type="ArrayMesh" id=103]
+[ext_resource path="res://Resources/Objects/TrainStationBuilding2.obj" type="ArrayMesh" id=104]
+[ext_resource path="res://Resources/Objects/Wall4m.obj" type="ArrayMesh" id=105]
+[ext_resource path="res://Resources/Objects/street_bridge_1_30m.obj" type="ArrayMesh" id=106]
+[ext_resource path="res://Resources/Objects/TunnelRound1Portal.obj" type="ArrayMesh" id=107]
+[ext_resource path="res://Resources/Objects/Wall32m.obj" type="ArrayMesh" id=108]
+[ext_resource path="res://Resources/Objects/Warn__Speed_Sign.obj" type="ArrayMesh" id=109]
+[ext_resource path="res://Resources/Objects/Wall16m.obj" type="ArrayMesh" id=110]
+[ext_resource path="res://Resources/Objects/Wall.obj" type="ArrayMesh" id=111]
+[ext_resource path="res://Resources/Objects/Tunnel1.obj" type="ArrayMesh" id=112]
+[ext_resource path="res://Resources/Objects/WallForPaintingWithWindow.obj" type="ArrayMesh" id=113]
+[ext_resource path="res://Resources/Objects/TrainStationBuilding4.obj" type="ArrayMesh" id=114]
+[ext_resource path="res://Resources/Objects/TunnelRound1.obj" type="ArrayMesh" id=115]
+[ext_resource path="res://Resources/Objects/zs3_small.obj" type="ArrayMesh" id=116]
+[ext_resource path="res://Resources/Objects/Subway_Stairs_Simple.obj" type="ArrayMesh" id=117]
+[ext_resource path="res://Resources/Objects/Wall8m.obj" type="ArrayMesh" id=118]
+[ext_resource path="res://Resources/Objects/TrainStationBuilding3.obj" type="ArrayMesh" id=119]
+[ext_resource path="res://Resources/Materials/Gravel.tres" type="Material" id=120]
+
+[node name="AllObjects" type="Spatial"]
+
+[node name="Arch" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0212202, 9.53674e-07, -0.0127249 )
+mesh = ExtResource( 1 )
+material/0 = ExtResource( 94 )
+
+[node name="Bench" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.3652, 0.0228587, -0.00683498 )
+mesh = ExtResource( 3 )
+skeleton = NodePath("../Arch")
+material/0 = ExtResource( 95 )
+material/1 = ExtResource( 94 )
+
+[node name="Bridge1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.238, 0, 0 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../Arch")
+material/0 = ExtResource( 94 )
+material/1 = ExtResource( 120 )
+
+[node name="BridgePfost1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.5363, 0, 0 )
+mesh = ExtResource( 13 )
+skeleton = NodePath("../Arch")
+material/0 = ExtResource( 94 )
+
+[node name="bumper" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 14 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="bü4" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 5 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="Bü4" parent="." instance=ExtResource( 16 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+
+[node name="Ceiling" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="Control-Roll" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 6 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="Crop" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 7 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="DestinationSignFromUp" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 8 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="DestinationSignFromUp_outside" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 9 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="DriversStand" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 12 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="easyBushes1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 10 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="easyBushes1_big" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 11 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="EasyTree" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 29 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="EasyTree_big" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 34 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="editor_arrow" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 28 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="empty" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 30 )
+skeleton = NodePath("../Arch")
+
+[node name="factory1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 31 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="FieldWithCrops" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 32 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="Garbage" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 33 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="GrassHalms" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 35 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="Halt300m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 61 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Halt500m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 87 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="hektometertafel" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 36 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="highway_bridge_1_30m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 66 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+
+[node name="highway_bridge_1_50m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 90 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+
+[node name="house1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 55 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="house2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 56 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="house3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 60 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+
+[node name="house4" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 45 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="house6" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 65 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="house7" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 62 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="ICE4" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 46 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="lf7" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 26 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Lift-Subway" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 47 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ne3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 80 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="Ne3" parent="." instance=ExtResource( 15 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+
+[node name="Ne4" parent="." instance=ExtResource( 17 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+
+[node name="Ne5" parent="." instance=ExtResource( 22 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+
+[node name="Ne6" parent="." instance=ExtResource( 20 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+
+[node name="Ne7" parent="." instance=ExtResource( 25 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+
+[node name="Ne8" parent="." instance=ExtResource( 23 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+
+[node name="Ne9" parent="." instance=ExtResource( 18 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+
+[node name="Ne10" parent="." instance=ExtResource( 24 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+
+[node name="Ne11" parent="." instance=ExtResource( 19 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+
+[node name="Ne12" parent="." instance=ExtResource( 21 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+
+[node name="ne3_small" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 48 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="Office1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 83 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="office2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 50 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="office3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 49 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="office4" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 85 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="office5" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 92 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="Pfost1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 39 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="Pfost2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 93 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="Pfost_long" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 37 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="Platform-1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 59 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Platform-1_double" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 57 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Platform-1_no_railings" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 84 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="platform_cube" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 76 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="Platform_double_roofing" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 77 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="platform_light_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 63 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="platform_light_1_double" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 38 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Platform_no_railings" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 70 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Platform_undercrossing" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 79 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Platform_undercrossing_end" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 64 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="Platform_undercrossing_with_roof" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 67 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+
+[node name="Pole1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 91 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Pole1_double" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 68 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Pole1_small" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 54 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="PoleRamp" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 75 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Poles_1_14m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 78 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Poles_1_16m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 88 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Poles_1_20m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 53 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Poles_1_22m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 58 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Poles_1_26m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 71 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Poles_1_28m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 51 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Poles_1_29m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 81 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Poles_1_30m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 40 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Poles_1_32m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 42 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Poles_1_40m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 82 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="pzb_magnet" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 41 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Rail" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 86 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="RailRamp2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 43 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="RailRamp" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 69 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="RailRampEnd2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 89 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="RailRampEnd" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 44 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="reverser" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 52 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="SoundSavingWall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 72 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="SpecialGround" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 73 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="Speed_Sign" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 74 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="street_bridge_1_30m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 106 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="street_bridge_1_50m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 102 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Subway_Bridge_Cross" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 99 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="Subway_Bridge_With1Edge" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 97 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="Subway_Bridge_WithEdges" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 101 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="Subway_Stairs_Long_10m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 98 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Subway_Stairs_Simple" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 117 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="TrainStationBuilding1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 96 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+
+[node name="TrainStationBuilding2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 104 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+
+[node name="TrainStationBuilding3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 119 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+
+[node name="TrainStationBuilding4" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 114 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+
+[node name="transmission_tower" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 103 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Tunnel1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 112 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="TunnelRound1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 115 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="TunnelRound1Portal" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 107 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="Wall4m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 105 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="Wall8m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 118 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="Wall16m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 110 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="Wall32m" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 108 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="Wall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 111 )
+skeleton = NodePath("../Arch")
+material/0 = null
+
+[node name="WallForPainting" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 100 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="WallForPaintingWithWindow" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 113 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Warn__Speed_Sign" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 109 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+
+[node name="zs3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 27 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="zs3_small" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.58739, -21.973, 30.1876 )
+visible = false
+mesh = ExtResource( 116 )
+skeleton = NodePath("../Arch")
+material/0 = null
+material/1 = null
+material/2 = null
