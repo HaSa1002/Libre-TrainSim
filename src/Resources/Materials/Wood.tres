@@ -3,5 +3,6 @@
 [ext_resource path="res://Resources/Textures/WoodenPlanks.png" type="Texture" id=1]
 
 [resource]
-albedo_color = Color( 0.376471, 0.360784, 0.329412, 1 )
+albedo_color = Color( 0.8, 0.654902, 0.513726, 1 )
 albedo_texture = ExtResource( 1 )
+uv1_triplanar = true
