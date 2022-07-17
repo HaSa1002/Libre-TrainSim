@@ -304,6 +304,8 @@ LoadingScreen="*res://Data/UI/loading_screen.tscn"
 InputHelper="*res://Data/Scripts/Singletons/input_helper.gd"
 DebugDraw="*res://addons/zylann.debug_draw/debug_draw.gd"
 DebugUi="*res://Data/UI/debug_ui.tscn"
+InputRecorder="*res://addons/hasa1002.input_macros/recorder.tscn"
+InputPlayback="*res://addons/hasa1002.input_macros/playback.tscn"
 
 [debug]
 
@@ -317,7 +319,7 @@ window/handheld/orientation="sensor_landscape"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/HaSa1002.light-tools/plugin.cfg", "res://addons/libre_trainsim_modding_tools/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/HaSa1002.light-tools/plugin.cfg", "res://addons/hasa1002.input_macros/plugin.cfg", "res://addons/libre_trainsim_modding_tools/plugin.cfg" )
 
 [game]
 
@@ -620,6 +622,16 @@ pzb_command={
 open_debug_ui={
 "deadzone": 0.5,
 "events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777255,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+input_recorder={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":true,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777254,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+input_playback={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":true,"meta":false,"command":true,"pressed":false,"scancode":16777254,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
  ]
 }
 
