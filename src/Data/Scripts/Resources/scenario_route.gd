@@ -134,6 +134,8 @@ func get_calculated_station_point(index: int, start_time: int):
 func _get_rail(world: Node, route_point: RoutePoint) -> Node:
 	if route_point is RoutePointStation:
 		var station: Node = world.get_signal(route_point.station_node_name)
+		if station == null:
+			return null
 		return world.get_rail(station.attached_rail)
 	return world.get_rail(route_point.rail_name)
 
