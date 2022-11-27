@@ -79,6 +79,9 @@ func _unhandled_input(event: InputEvent) -> void:
 
 
 func _physics_process(delta: float) -> void:
+	DebugDraw.set_text("Position (global)", \
+			"%.2f, %.2f, %.2f" % \
+			[global_translation.x, global_translation.y, global_translation.z])
 	if !is_moving_first_person:
 		in_movement_time = 0
 		return
