@@ -339,6 +339,8 @@ func _on_StationPoint_Select_pressed():
 func _station_point_selected(node_name: String):
 	var selected_route_point_index = $TabContainer/Routes/RouteConfiguration/RoutePoints/ItemList.get_selected_items()[0]
 	loaded_route.route_points[selected_route_point_index].station_node_name = node_name
+	if loaded_route.route_points[selected_route_point_index].station_name.empty():
+		loaded_route.route_points[selected_route_point_index].station_name = node_name
 	update_route_point_list()
 	update_station_point_settings()
 
